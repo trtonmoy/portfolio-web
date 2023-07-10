@@ -1,0 +1,21 @@
+@keyframes moving-border-animation {
+  0% {
+    border-width: 2px;
+    border-color: rgba(249, 118, 37, 0.904);
+    /* border-radius: 40%; */
+  }
+  50% {
+    border-width: 10px;
+    border-color: rgb(69, 127, 244);
+    /* border-radius: 50%; */
+  }
+  100% {
+    border-width: 2px;
+    border-color: rgba(197, 16, 185, 0.829);
+    /* border-radius: 60%; */
+  }
+}
+
+.my-image {
+  animation: moving-border-animation 5s infinite;
+}
