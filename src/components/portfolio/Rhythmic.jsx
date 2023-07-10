@@ -2,16 +2,22 @@ import React from "react";
 
 const Rhythmic = () => {
   return (
-    <div className="lg:flex my-24">
-      <div className="w-[50%]">
+    <div className="lg:flex lg:justify-center lg:items-center my-24">
+      <div className="md:w-[50%]">
         <img src="/rhythmic academy.png" alt="" />
       </div>
-      <div className="w-[50%] px-8">
-        <h2>Rhythmic Academy</h2>
-        <p>This is a full stack web application</p>
+      <div className="md:w-[50%] px-8">
+        <h2 className="text-2xl font-extrabold my-4 text-blue-600">
+          Rhythmic Academy
+        </h2>
+        <p className="text-xl font-bold text-purple-700 my-4">
+          This is a full stack 'academic web application'.
+        </p>
         <div>
-          <h4>➢ Core Functionalities:</h4>
-          <ul>
+          <h4 className="text-lg font-semibold text-rose-600">
+            ➢ Core Functionalities:
+          </h4>
+          <ul className="text-slate-600 font-medium my-4">
             <li>
               • A User can take admission on any course and have to pay to
               purchase the course.
@@ -25,8 +31,10 @@ const Rhythmic = () => {
               also can manage users.
             </li>
           </ul>
-          <h4>➢ Implemented Technologies:</h4>
-          <p>
+          <h4 className="text-lg font-semibold text-rose-600">
+            ➢ Implemented Technologies:
+          </h4>
+          <p className="text-slate-600 font-medium my-4">
             • Programming Languages: JavaScript <br />• Front-end: React, React
             Router, Tailwind CSS, DaisyUI, TanStack Queries - <br />• Other:
             MongoDB, Firebase Authentication, JWT, Dotenv, Stripe -
@@ -53,6 +61,7 @@ const Rhythmic = () => {
           </a>
         </div>
       </div>
+    
     </div>
   );
 };

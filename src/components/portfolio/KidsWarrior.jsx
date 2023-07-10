@@ -2,21 +2,30 @@ import React from "react";
 
 const KidsWarrior = () => {
   return (
-    <div className="my-24 lg:flex">
-      <div className="w-[50%] px-12">
+    <div className="my-24 lg:flex lg:justify-center lg:items-center">
+      <div className="md:w-[50%] px-12">
         <div>
-          <h2>Warrior Kids</h2>
-          <p>Warrior Kids is a e-commerce site </p>
+          <h2 className="text-2xl font-extrabold my-4 text-blue-600">
+            Warrior Kids
+          </h2>
+          <p className="text-xl font-bold text-purple-700 my-4">
+            Warrior Kids is a 'e-commerce site'{" "}
+          </p>
           <div>
-            <h3>➢ Core Functionalities:</h3>
-            <p>
+            <h3 className="text-lg font-semibold text-rose-600">
+              ➢ Core Functionalities:
+            </h3>
+            <p className="text-slate-600 font-medium my-4">
               • Anyone can visit the site and check out the products with
               details. <br />• Logged in User can Add new products in database
               and see his/her added list. <br />• Any product from the added
               list can be updated and can be deleted.
             </p>
-            <h4> ➢ Implemented Technologies:</h4>
-            <p>
+            <h4 className="text-lg font-semibold text-rose-600">
+              {" "}
+              ➢ Implemented Technologies:
+            </h4>
+            <p className="text-slate-600 font-medium my-4">
               • Programming Languages: JavaScript <br />• Front-end: React,
               React Router, Tailwind CSS, DaisyUI, SweetAlert - <br />• Other:
               MongoDB, Firebase Authentication, Dotenv.
@@ -44,7 +53,7 @@ const KidsWarrior = () => {
           </div>
         </div>
       </div>
-      <div className="w-[50%] ">
+      <div className="md:w-[50%] ">
         <img src="/warriorKids.png" alt="" />
       </div>
     </div>

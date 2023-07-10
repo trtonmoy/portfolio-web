@@ -11,56 +11,58 @@ import photo9 from "../../../../public/skills/tailwind.png";
 
 const Skills = () => {
   return (
-    <div className="lg:flex gap-10 lg:justify-center lg:items-center">
-      <h1>Tech Stacks</h1>
-      <div className="lg:flex lg:justify-evenly">
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo4}
-          alt="html5"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo2}
-          alt="css"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo1}
-          alt="bootstrap"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo9}
-          alt="tailwind"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo5}
-          alt="js"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo8}
-          alt="react"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo7}
-          alt="nodejs"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo3}
-          alt="expressjs"
-        />
-        <img
-          className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
-          src={photo6}
-          alt="mongodb"
-        />
+    <section className="flex justify-center items-center mt-8">
+      <div className=" lg:flex gap-10 lg:justify-center lg:items-center">
+        <h1 className="my-8">Tech Stacks</h1>
+        <div className="space-y-5 lg:flex lg:justify-evenly">
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo4}
+            alt="html5"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo2}
+            alt="css"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo1}
+            alt="bootstrap"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo9}
+            alt="tailwind"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo5}
+            alt="js"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo8}
+            alt="react"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo7}
+            alt="nodejs"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo3}
+            alt="expressjs"
+          />
+          <img
+            className="w-16 mr-6 p-3 bg-slate-100 rounded-md"
+            src={photo6}
+            alt="mongodb"
+          />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

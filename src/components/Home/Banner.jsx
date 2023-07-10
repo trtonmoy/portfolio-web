@@ -50,7 +50,7 @@ const Banner = () => {
         </div>
         <div>{/* social icons */}</div>
       </div>
-      <div>
+      <div className="flex justify-center items-center mt-8">
         <img
           className="h-[250px] w-[250px] rounded-full my-image"
           src="/tonmoy.png"

@@ -39,14 +39,24 @@ const Contact = () => {
       <div className="w-full">
         <h3 className="text-2xl text-red-700 font-bold mb-12">Contact Me</h3>
         <form className="" ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input className="w-full py-2 my-4" type="text" name="user_name" />
-          <label>Email</label>
-          <input className="w-full py-2 my-4" type="email" name="user_email" />
-          <label>Message</label>
-          <textarea className="w-full py-2 my-4" name="message" />
+          <label className="">
+            Name
+            <input className="w-full py-2 my-4" type="text" name="user_name" />
+          </label>
+          <label className="">
+            Email
+            <input
+              className="w-full py-2 my-4"
+              type="email"
+              name="user_email"
+            />
+          </label>
+          <label className="">
+            Message
+            <textarea className="w-full py-2 my-4" name="message" />
+          </label>
           <input
-            className="border px-12 py-3 bg-red-700 mt-4"
+            className="border  px-12 py-3 bg-red-700 mt-4"
             type="submit"
             value="Send"
           />
