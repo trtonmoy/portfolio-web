@@ -6,7 +6,7 @@ const Rhythmic = () => {
       <div className="lg:w-[50%] min-h-screen flex items-center justify-center">
         <div className="w-full h-[550px] overflow-y-scroll">
           <img
-            src="/public/rhythmic-academy.web.app_ (1).png"
+            src="/rhythmic-academy.web.app_.png"
             alt="Landing Page"
             className="w-full"
           />

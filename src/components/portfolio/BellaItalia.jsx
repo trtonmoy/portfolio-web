@@ -6,7 +6,7 @@ const BellaItalia = () => {
       <div className="lg:w-[50%] min-h-screen flex items-center justify-center">
         <div className="w-full h-[550px] overflow-y-scroll">
           <img
-            src="/public/bella-italia-e9f2f.web.app_.png"
+            src="/bella-italia-e9f2f.web.app_.png"
             alt="Landing Page"
             className="w-full"
           />

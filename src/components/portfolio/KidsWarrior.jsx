@@ -66,7 +66,7 @@ const KidsWarrior = () => {
       <div className="lg:w-[50%] min-h-screen flex items-center justify-center">
         <div className="w-full h-[500px] overflow-y-scroll">
           <img
-            src="/public/warrior-kids.web.app_.png"
+            src="/warrior-kids.web.app_.png"
             alt="Landing Page"
             className="w-full"
           />
