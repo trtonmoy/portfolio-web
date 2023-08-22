@@ -3,7 +3,7 @@ import React from "react";
 const KidsWarrior = () => {
   return (
     <div className="my-24 lg:flex lg:justify-center lg:items-center">
-      <div className="md:w-[50%] px-12">
+      <div className="md:w-[50%] px-4 lg:px-8">
         <div>
           <h2 className="text-2xl font-extrabold my-4 text-blue-600">
             Warrior Kids

@@ -14,10 +14,10 @@ const Skills = () => {
   return (
     <section className="flex justify-center items-center mt-8">
       <div className=" lg:flex gap-10 lg:justify-center lg:items-center">
-        <h1 className="my-8 font-semibold tracking-wide text-xl w-[30%] lg:text-right">
+        <h1 className="my-8 font-semibold tracking-wide text-xl lg:w-[30%] lg:text-right">
           Tech Stacks
         </h1>
-        <Marquee className="w-[60%]">
+        <Marquee className="lg:w-[60%]">
           <div className="space-y-5 lg:flex lg:justify-evenly">
             <img
               className="w-16 mr-6 p-3 bg-slate-100 rounded-md"

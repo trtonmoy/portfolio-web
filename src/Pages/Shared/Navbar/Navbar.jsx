@@ -35,12 +35,6 @@ const Navbar = () => {
                   href="/"
                   className="text-black font-bold hover:text-gray-700"
                 >
-                  Services
-                </a>
-                <a
-                  href="/"
-                  className="text-black font-bold hover:text-gray-700"
-                >
                   Contact
                 </a>
               </div>
@@ -79,12 +73,6 @@ const Navbar = () => {
               className="block px-3 py-2 text-black font-bold hover:text-gray-700"
             >
               About
-            </a>
-            <a
-              href="/"
-              className="block px-3 py-2 text-black font-bold hover:text-gray-700"
-            >
-              Services
             </a>
             <a
               href="/"

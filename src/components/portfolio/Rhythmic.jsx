@@ -6,7 +6,7 @@ const Rhythmic = () => {
       <div className="md:w-[50%]">
         <img src="/rhythmic academy.png" alt="" />
       </div>
-      <div className="md:w-[50%] px-8">
+      <div className="md:w-[50%] px-4 lg:px-8">
         <h2 className="text-2xl font-extrabold my-4 text-blue-600">
           Rhythmic Academy
         </h2>
@@ -61,7 +61,6 @@ const Rhythmic = () => {
           </a>
         </div>
       </div>
-    
     </div>
   );
 };

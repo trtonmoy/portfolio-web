@@ -35,8 +35,8 @@ const Contact = () => {
       );
   };
   return (
-    <div className="m-24 ">
-      <div className="w-full">
+    <div className="max-w-4xl mx-auto">
+      <div className="">
         <h3 className="text-2xl text-red-700 font-bold mb-12">Contact Me</h3>
         <form className="" ref={form} onSubmit={sendEmail}>
           <label className="">
@@ -56,7 +56,7 @@ const Contact = () => {
             <textarea className="w-full py-2 my-4" name="message" />
           </label>
           <input
-            className="border  px-12 py-3 bg-red-700 mt-4"
+            className="border  px-12 py-3 bg-red-500 tracking-wide font-medium hover:text-white hover:bg-red-600  mt-4"
             type="submit"
             value="Send"
           />
