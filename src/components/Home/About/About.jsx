@@ -28,6 +28,9 @@ const About = () => {
                 and a team player, I'm eager to contribute my skills to
                 collaborative projects. Let's create something exceptional
                 together!
+                <br />
+                Beyond coding, I find joy in exploring the world through travel
+                and immersing myself in the narratives of movies.
               </p>
             </div>
             <div className="md:w-1/2 mt-6 md:mt-0">
