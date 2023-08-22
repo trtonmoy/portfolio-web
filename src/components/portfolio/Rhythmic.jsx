@@ -4,7 +4,7 @@ const Rhythmic = () => {
   return (
     <div className="lg:flex lg:justify-center lg:items-center my-24">
       <div className="lg:w-[50%] min-h-screen flex items-center justify-center">
-        <div className="w-full h-[500px] overflow-y-scroll">
+        <div className="w-full h-[550px] overflow-y-scroll">
           <img
             src="/public/rhythmic-academy.web.app_ (1).png"
             alt="Landing Page"
@@ -12,39 +12,44 @@ const Rhythmic = () => {
           />
         </div>
       </div>
-      <div className="md:w-[50%] px-4 lg:px-8">
-        <h2 className="text-2xl font-extrabold my-4 text-blue-600">
+      <div className="md:w-[50%] px-4 lg:pl-16">
+        <h2 className="text-2xl font-extrabold mb-1 text-blue-600">
           Rhythmic Academy
         </h2>
-        <p className="text-xl font-bold text-purple-700 my-4">
+        <p className="text-xl font-bold text-purple-600 mb-8">
           This is a full stack 'academic web application'.
         </p>
         <div>
-          <h4 className="text-lg font-semibold text-rose-600">
+          <h4 className="text-xl font-semibold text-rose-600">
             ➢ Core Functionalities:
           </h4>
-          <ul className="text-slate-600 font-medium my-4">
-            <li>
-              • A User can take admission on any course and have to pay to
+          <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
+            <li className="">
+              A User can take admission on any course and have to pay to
               purchase the course.
             </li>
             <li>
-              • An Instructor can add any new course and he can see the status
-              and feedback of his courses.
+              An Instructor can add any new course and he can see the status and
+              feedback of his courses.
             </li>
             <li>
-              • Admin has the right to approve or deny the new added courses and
+              Admin has the right to approve or deny the new added courses and
               also can manage users.
             </li>
           </ul>
           <h4 className="text-lg font-semibold text-rose-600">
             ➢ Implemented Technologies:
           </h4>
-          <p className="text-slate-600 font-medium my-4">
-            • Programming Languages: JavaScript <br />• Front-end: React, React
-            Router, Tailwind CSS, DaisyUI, TanStack Queries - <br />• Other:
-            MongoDB, Firebase Authentication, JWT, Dotenv, Stripe -
-          </p>
+          <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
+            <li> Programming Languages: JavaScript </li>
+            <li>
+              Front-end: React, React Router, Tailwind CSS, DaisyUI, TanStack
+              Queries -
+            </li>
+            <li>
+              Other: MongoDB, Firebase Authentication, JWT, Dotenv, Stripe -
+            </li>
+          </ul>
         </div>
         <div className="my-12">
           <a

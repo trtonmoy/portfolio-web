@@ -9,27 +9,37 @@ const KidsWarrior = () => {
             Warrior Kids
           </h2>
           <p className="text-xl font-bold text-purple-700 my-4">
-            Warrior Kids is a 'e-commerce site'{" "}
+            Warrior Kids is a 'e-commerce site'
           </p>
           <div>
             <h3 className="text-lg font-semibold text-rose-600">
               ➢ Core Functionalities:
             </h3>
-            <p className="text-slate-600 font-medium my-4">
-              • Anyone can visit the site and check out the products with
-              details. <br />• Logged in User can Add new products in database
-              and see his/her added list. <br />• Any product from the added
-              list can be updated and can be deleted.
-            </p>
+            <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
+              <li>
+                Anyone can visit the site and check out the products with
+                details.
+              </li>
+              <li>
+                Logged in User can Add new products in database and see his/her
+                added list.
+              </li>
+              <li>
+                Any product from the added list can be updated and can be
+                deleted.
+              </li>
+            </ul>
             <h4 className="text-lg font-semibold text-rose-600">
-              {" "}
               ➢ Implemented Technologies:
             </h4>
-            <p className="text-slate-600 font-medium my-4">
-              • Programming Languages: JavaScript <br />• Front-end: React,
-              React Router, Tailwind CSS, DaisyUI, SweetAlert - <br />• Other:
-              MongoDB, Firebase Authentication, Dotenv.
-            </p>
+            <ul className="text-slate-600 font-medium my-4">
+              <li>Programming Languages: JavaScript</li>
+              <li>
+                Front-end: React, React Router, Tailwind CSS, DaisyUI,
+                SweetAlert -
+              </li>
+              <li>Other: MongoDB, Firebase Authentication, Dotenv.</li>
+            </ul>
           </div>
           <div className="my-12">
             <a

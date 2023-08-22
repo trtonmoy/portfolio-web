@@ -23,20 +23,31 @@ const BellaItalia = () => {
           <h4 className="text-lg font-semibold text-rose-600">
             ➢ Core Functionalities:
           </h4>
-          <p className="text-slate-600 font-medium my-4">
-            • Users can visit the website and check out our chefs from the chef
-            section. <br />• Users can check out the recipes of our chefs who
-            are famous for their recipe. <br />• User can add any recipe as
-            his/her favorite. After adding they will get a toast message.
-          </p>
+          <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
+            <li>
+              Users can visit the website and check out our chefs from the chef
+              section.
+            </li>
+            <li>
+              Users can check out the recipes of our chefs who are famous for
+              their recipe.
+            </li>
+            <li>
+              User can add any recipe as his/her favorite. After adding they
+              will get a toast message.
+            </li>
+          </ul>
           <h3 className="text-lg font-semibold text-rose-600">
             ➢ Implemented Technologies:
           </h3>
-          <p className="text-slate-600 font-medium my-4">
-            • Programming Languages: JavaScript <br />• Front-end: React, React
-            Router, Tailwind CSS, DaisyUI, React Toast - <br />• Other: MongoDB,
-            Firebase Authentication, Dotenv.
-          </p>
+          <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
+            <li> Programming Languages: JavaScript</li>
+            <li>
+              Front-end: React, React Router, Tailwind CSS, DaisyUI, React Toast
+              -
+            </li>
+            <li> Other: MongoDB, Firebase Authentication, Dotenv.</li>
+          </ul>
         </div>
         <div className="my-12">
           <a
@@ -55,7 +66,6 @@ const BellaItalia = () => {
             className="p-2 border m-2 bg-red-400 hover:bg-rose-500 hover:text-white"
             href="https://bella-italia-e9f2f.web.app/"
           >
-            {" "}
             live
           </a>
         </div>
