@@ -3,8 +3,14 @@ import React from "react";
 const Rhythmic = () => {
   return (
     <div className="lg:flex lg:justify-center lg:items-center my-24">
-      <div className="md:w-[50%]">
-        <img src="/rhythmic academy.png" alt="" />
+      <div className="lg:w-[50%] min-h-screen flex items-center justify-center">
+        <div className="w-full h-[500px] overflow-y-scroll">
+          <img
+            src="/public/rhythmic-academy.web.app_ (1).png"
+            alt="Landing Page"
+            className="w-full"
+          />
+        </div>
       </div>
       <div className="md:w-[50%] px-4 lg:px-8">
         <h2 className="text-2xl font-extrabold my-4 text-blue-600">
