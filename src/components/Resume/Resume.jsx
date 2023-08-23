@@ -7,7 +7,7 @@ const Resume = () => {
         <a
           className="btn btn-primary "
           href="Resume Of Tonmoy.pdf"
-          download="ResumeOfTonmoy.pdf"
+          download="Resume Of Tonmoy.pdf"
         >
           Download Resume
         </a>
