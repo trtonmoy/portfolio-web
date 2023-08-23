@@ -24,15 +24,15 @@ const BellaItalia = () => {
             ➢ Core Functionalities:
           </h4>
           <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               Users can visit the website and check out our chefs from the chef
               section.
             </li>
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               Users can check out the recipes of our chefs who are famous for
               their recipe.
             </li>
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               User can add any recipe as his/her favorite. After adding they
               will get a toast message.
             </li>
@@ -41,12 +41,18 @@ const BellaItalia = () => {
             ➢ Implemented Technologies:
           </h3>
           <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
-            <li> Programming Languages: JavaScript</li>
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
+              {" "}
+              Programming Languages: JavaScript
+            </li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               Front-end: React, React Router, Tailwind CSS, DaisyUI, React Toast
               -
             </li>
-            <li> Other: MongoDB, Firebase Authentication, Dotenv.</li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
+              {" "}
+              Other: MongoDB, Firebase Authentication, Dotenv.
+            </li>
           </ul>
         </div>
         <div className="my-12">

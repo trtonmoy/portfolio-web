@@ -16,15 +16,15 @@ const KidsWarrior = () => {
               ➢ Core Functionalities:
             </h3>
             <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
-              <li>
+              <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
                 Anyone can visit the site and check out the products with
                 details.
               </li>
-              <li>
+              <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
                 Logged in User can Add new products in database and see his/her
                 added list.
               </li>
-              <li>
+              <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
                 Any product from the added list can be updated and can be
                 deleted.
               </li>
@@ -32,13 +32,17 @@ const KidsWarrior = () => {
             <h4 className="text-lg font-semibold text-rose-600">
               ➢ Implemented Technologies:
             </h4>
-            <ul className="text-slate-600 font-medium my-4">
-              <li>Programming Languages: JavaScript</li>
-              <li>
+            <ul className="text-slate-600 space-y-4 font-medium my-4">
+              <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
+                Programming Languages: JavaScript
+              </li>
+              <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
                 Front-end: React, React Router, Tailwind CSS, DaisyUI,
                 SweetAlert -
               </li>
-              <li>Other: MongoDB, Firebase Authentication, Dotenv.</li>
+              <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
+                Other: MongoDB, Firebase Authentication, Dotenv.
+              </li>
             </ul>
           </div>
           <div className="my-12">

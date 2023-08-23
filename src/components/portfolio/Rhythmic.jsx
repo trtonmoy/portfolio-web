@@ -24,15 +24,15 @@ const Rhythmic = () => {
             ➢ Core Functionalities:
           </h4>
           <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
-            <li className="">
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               A User can take admission on any course and have to pay to
               purchase the course.
             </li>
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               An Instructor can add any new course and he can see the status and
               feedback of his courses.
             </li>
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               Admin has the right to approve or deny the new added courses and
               also can manage users.
             </li>
@@ -41,12 +41,15 @@ const Rhythmic = () => {
             ➢ Implemented Technologies:
           </h4>
           <ul className="text-slate-600 text-lg space-y-4 font-medium my-4">
-            <li> Programming Languages: JavaScript </li>
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
+              {" "}
+              Programming Languages: JavaScript{" "}
+            </li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               Front-end: React, React Router, Tailwind CSS, DaisyUI, TanStack
               Queries -
             </li>
-            <li>
+            <li className="hover:bg-amber-100 px-3 rounded-md shadow-sm">
               Other: MongoDB, Firebase Authentication, JWT, Dotenv, Stripe -
             </li>
           </ul>
