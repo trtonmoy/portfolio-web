@@ -1,6 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "../../../lottie/95348-coding-boy.json";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const About = () => {
   const defaultOptions = {
@@ -32,6 +33,16 @@ const About = () => {
                 Beyond coding, I find joy in exploring the world through travel
                 and immersing myself in the narratives of movies.
               </p>
+              <div className="min-h-16 w-full md:flex justify-center items-center">
+                <div className="md:flex justify-center items-center gap-5">
+                  <a href="https://github.com/trtonmoy">
+                    <BsGithub className="text-3xl my-3" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/tr-tonmoy-roy/">
+                    <BsLinkedin className="text-3xl" />
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="md:w-1/2 mt-6 md:mt-0">
               <Lottie options={defaultOptions} />
