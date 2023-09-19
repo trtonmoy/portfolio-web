@@ -33,6 +33,8 @@ const About = () => {
                 Beyond coding, I find joy in exploring the world through travel
                 and immersing myself in the narratives of movies.
               </p>
+
+              {/* Added social links */}
               <div className="min-h-16 w-full md:flex justify-center items-center">
                 <div className="md:flex justify-center items-center gap-5">
                   <a href="https://github.com/trtonmoy">
